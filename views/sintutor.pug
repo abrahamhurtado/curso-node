@@ -1,0 +1,6 @@
+extends index.pug
+
+block contenido
+  ul
+    each alumno in alumnos
+      li= alumno.nombre + ' (' + alumno.expediente + ')'
